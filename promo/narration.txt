@@ -1,0 +1,37 @@
+@dsh-pm/registry — 60-second promo · narration
+==============================================
+Read aloud while advancing slides. Total ≈ 1 minute (about 8 seconds
+per slide). Advance on the slide marker.
+
+[S1 · 0:00–0:08 · title]
+Find every dsh plugin. One catalog, filed from three sources —
+the awesome list, GitHub, and npm — merged, deduped, and sorted.
+One search instead of three hunts.
+
+[S2 · 0:08–0:16 · three sources]
+Three lists, one catalog. Every plugin you'd want lives on one of
+these: the community's awesome README, repos tagged dsh-plugin on
+GitHub, and published npm packages. The registry files them together.
+
+[S3 · 0:16–0:24 · the problem]
+Discovery is manual. Stalk GitHub topics, skim a README, guess at
+npm names — and the three lists never agree.
+
+[S4 · 0:24–0:32 · the merge]
+One repo, one name, one row. Dedupe by repo URL, then by bare
+name: a GitHub hit and an npm hit for the same plugin collapse
+into a single entry that carries both the repo and the package.
+
+[S5 · 0:32–0:40 · offline]
+Dead source? Degrade, don't crash. Each source falls back:
+primary → https → local cache. A dead one costs a dimmed warning —
+never your search. Offline still returns the catalog you have.
+
+[S6 · 0:40–0:48 · in dsh pm]
+In dsh pm, one command searches the whole catalog — ranked by
+stars, with the source and category on every row.
+
+[S7 · 0:48–0:56 · get it]
+One command and it's yours: dsh plugin add, the plugin manager.
+The discovery engine is @dsh-pm/registry — search, resolve, and
+update-check every dsh plugin from one catalog.
